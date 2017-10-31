@@ -29,6 +29,7 @@ router.get('/', function(req, res, next) {
 router.get('/cookbook', function(req, res)
 {
 	console.log("in Cookbook");
+	console.log(recipes);
 	res.send(recipes);
 });
 
