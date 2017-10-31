@@ -1,9 +1,9 @@
 var app= window.angular.module('app',[])
 
-app.factory('reciepeFetcher', reciepeFetcher)
+app.factory('recipeFetcher', recipeFetcher)
 app.controller('mainCtrl', mainCtrl)
 
-function reciepeFetcher ($http)
+function recipeFetcher ($http)
 {
 	var API_ROOT ='cookbook'
 	return {
@@ -17,10 +17,10 @@ function reciepeFetcher ($http)
 	}
 }
 
-function mainCtrl ($scope, reciepeFetcher, $http)
+function mainCtrl ($scope, recipeFetcher, $http)
 {
-	$scope.reciepe =[];
-	$scope.addReciepe = function() {
+	$scope.recipe =[];
+	$scope.addRecipe = function() {
 	var formData = {name:$scope.Name,ingredient1:$scope.Ingredient1,ingredient2:$scope.Ingredient2,ingredient3:$scope.Ingredient3,ingredient4:$scope.Ingredient4}
 var cookbookURL = "cookbook"
  $http({
@@ -33,8 +33,8 @@ var cookbookURL = "cookbook"
     console.log("Post failed");
   });
 }
- reciepeFetcher.get()
+ recipeFetcher.get()
     .then(function (data) {
-      $scope.recipie = data
+      $scope.recipe = data
     })
 }

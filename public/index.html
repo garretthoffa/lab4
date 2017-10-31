@@ -21,16 +21,16 @@ Ingredient: <input type = "text" ng-model="Ingredient4" value = ""><br>
  <input type="submit" value="Submit">
 </form>
 
-    <div ng-if='!pokemon.length' class='no-pokemon center stretch'>
+    <div ng-if='!recipe.length' class='no-pokemon center stretch'>
       <h1 class='h1'>
       
 	</h1>
     </div>
 
-    <ul ng-if='pokemon.length' class='list center stretch'>
-      <li ng-repeat='p in pokemon' class='pokemon'>
+    <ul ng-if='recipe.length' class='list center stretch'>
+      <li ng-repeat='p in recipe' class='recipe'>
         <h1>{{ p.name }}</h1>
-        <img class='avatar' ng-src="{{p.avatarUrl}}" />
+        <!--<img class='avatar' ng-src="{{p.avatarUrl}}" />-->
       </li>
     </ul>
   </div>
