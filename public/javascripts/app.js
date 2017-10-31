@@ -1,6 +1,6 @@
 var app= window.angular.module('app',[])
 
-app.factory('reciepeFetcher', recipeFetcher)
+app.factory('reciepeFetcher', reciepeFetcher)
 app.controller('mainCtrl', mainCtrl)
 
 function reciepeFetcher ($http)
