@@ -30,6 +30,12 @@
     <ul ng-if='recipe.length' class='list center stretch'>
       <li ng-repeat='p in recipe' class='recipe'>
         <h1>{{ p.name }}</h1>
+	 <p> {{ p.ingredient1 }} </p>
+         <p> {{ p.ingredient2 }} </p>
+         <p> {{ p.ingredient3 }} </p>
+         <p> {{ p.ingredient4 }} </p>
+         <p> {{ p.instructions }} </p>
+
         <!--<img class='avatar' ng-src="{{p.avatarUrl}}" />-->
       </li>
     </ul>
