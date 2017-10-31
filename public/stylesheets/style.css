@@ -1,9 +1,30 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url("https://theveganword.com/wp-content/uploads/2016/05/launch-page-cooking-background.jpg ")
+  background-color:black;
+  background-image: url("https://theveganword.com/wp-content/uploads/2016/05/launch-page-cooking-background.jpg ");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
 a {
   color: #00B7FF;
+}
+body{
+  padding-left: 14%;
+}
+label {
+width:80px;
+    clear:left;
+    text-align:left;
+    padding-right:10px;
+}
+
+input, label {
+    float:left;
+}
+
+p {
+color: black;
 }

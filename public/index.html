@@ -10,14 +10,14 @@
 <body>
 
   <div id='app' ng-app='app' ng-controller='mainCtrl'>
-<p> Add a recipe name and its ingredients to store in your cookbook</p><br><br>
+<p> Add a recipe name and its <br> ingredients to store in your <br> cookbook</p><br><br>
 <h2> Enter a new Recipe</h2>
 <form id="newRecipe" ng-submit="addRecipe()">
-  Name: <input type="text" ng-model="Name" value=""><br>
-  Ingredient: <input type = "text" ng-model="Ingredient1" value = ""><br>
-Ingredient: <input type = "text" ng-model="Ingredient2" value = ""><br>
-Ingredient: <input type = "text" ng-model="Ingredient3" value = ""><br>
-Ingredient: <input type = "text" ng-model="Ingredient4" value = ""><br> 
+<label> Name:</label> <input type="text" ng-model="Name" value=""><br>
+<label> Ingredient:</label>  <input type = "text" ng-model="Ingredient1" value = ""><br>
+<label> Ingredient:</label> <input type = "text" ng-model="Ingredient2" value = ""><br>
+<label> Ingredient:</label> <input type = "text" ng-model="Ingredient3" value = ""><br>
+<label> Ingredient:</label> <input type = "text" ng-model="Ingredient4" value = ""><br> 
  <input type="submit" value="Submit">
 </form>
 
