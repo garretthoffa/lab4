@@ -1,7 +1,8 @@
 var express = require('express');
 var request = require('request');
+var value = '';
 var router = express.Router();
-recipies = [
+recipes = [
 	{
 		name: 'Tuna Noodles and Peas',
 		ingredient1: '1 box macaroni and cheese'
@@ -22,19 +23,33 @@ recipies = [
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { root: 'public' });
+  res.render('index.html', { root: 'public' });
 });
 
 router.get('/cookbook', function(req, res)
 {
 	console.log("in Cookbook");
-	res.send(recipies);
-};
+	res.send(recipes);
+});
 
 router.post('/cookbook', function(req, res) {
     console.log("In cookbook Post");
     console.log(req.body);
-    recipies.push(req.body);
+    recipes.push(req.body);
     res.end('{"success" : "Updated Successfully", "status" : 200}');
+});
+router.post('/recipes', function(req, res)
+{
+	console.log("in recipes post");
+	value = req.body;
+	res.end('{"success" : "Updated Successfully", "status" : 200}');
+});
+
+var recipesURL = 'http://food2fork.com/api/search?key={API_KEY}&q='
+router.get('/recipes', function(req,res)
+{
+	console.log("In recipes");
+	recipesURL = recipesURL+value;
+	request(recipesURL).pipe(res);
 });
 module.exports = router;
