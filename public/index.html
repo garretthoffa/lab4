@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="javascripts/app.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <meta charset="utf-8">
+  <title>The Cookbook</title>
+</head>
+<body>
 
+  <div id='app' ng-app='app' ng-controller='mainCtrl'>
+<p> Add a recipe name and its ingredients to store in your cookbook</p><br><br>
+<h2> Enter a new Recipe</h2>
+<form id="newRecipe" ng-submit="addRecipe()">
+  Name: <input type="text" ng-model="Name" value=""><br>
+  Ingredient: <input type = "text" ng-model="Ingredient1" value = ""><br>
+Ingredient: <input type = "text" ng-model="Ingredient2" value = ""><br>
+Ingredient: <input type = "text" ng-model="Ingredient3" value = ""><br>
+Ingredient: <input type = "text" ng-model="Ingredient4" value = ""><br> 
+ <input type="submit" value="Submit">
+</form>
+
+    <div ng-if='!pokemon.length' class='no-pokemon center stretch'>
+      <h1 class='h1'>
+      
+	</h1>
+    </div>
+
+    <ul ng-if='pokemon.length' class='list center stretch'>
+      <li ng-repeat='p in pokemon' class='pokemon'>
+        <h1>{{ p.name }}</h1>
+        <img class='avatar' ng-src="{{p.avatarUrl}}" />
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
