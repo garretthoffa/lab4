@@ -29,4 +29,7 @@ input, label {
 }
 
 p {
-color: white;}
+color: white;
+padding-left: 14%;
+  padding-right: 35%;
+}
