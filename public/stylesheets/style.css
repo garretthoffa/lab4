@@ -6,13 +6,16 @@ body {
   background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+  color: white;
 }
+
 
 a {
   color: #00B7FF;
 }
 body{
   padding-left: 14%;
+  padding-right: 35%;
 }
 label {
 width:80px;
@@ -26,5 +29,4 @@ input, label {
 }
 
 p {
-color: black;
-}
+color: white;}

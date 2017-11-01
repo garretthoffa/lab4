@@ -68,3 +68,130 @@
 [0mGET /? [36m304 [0m0.947 ms - -[0m
 [0mGET /javascripts/app.js [36m304 [0m1.064 ms - -[0m
 [0mGET /stylesheets/style.css [32m200 [0m1.246 ms - 520[0m
+[0mGET /? [32m200 [0m0.430 ms - 1363[0m
+[0mGET /javascripts/app.js [32m200 [0m0.709 ms - 944[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.510 ms - -[0m
+in Cookbook
+[0mGET /cookbook [32m200 [0m6.326 ms - 978[0m
+In cookbook Post
+{ name: 'Alfredo', ingredient1: 'cream' }
+[0mPOST /cookbook [32m200 [0m19.026 ms - -[0m
+In cookbook Post
+{ name: 'Alfredo',
+  ingredient1: 'cream',
+  ingredient2: 'butter',
+  ingredient3: 'parsley',
+  ingredient4: 'garlic' }
+[0mPOST /cookbook [32m200 [0m1.128 ms - -[0m
+In cookbook Post
+{ name: 'Alfredo',
+  ingredient1: 'cream',
+  ingredient2: 'butter',
+  ingredient3: 'parsley',
+  ingredient4: 'garlic' }
+[0mPOST /cookbook [32m200 [0m0.967 ms - -[0m
+[0mGET /? [36m304 [0m0.350 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.343 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.195 ms - -[0m
+in Cookbook
+[0mGET /cookbook [32m200 [0m0.667 ms - 1241[0m
+[0mGET /? [36m304 [0m0.303 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.305 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.907 ms - -[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m0.545 ms - -[0m
+In cookbook Post
+{ name: 'alfredp' }
+[0mPOST /cookbook [32m200 [0m0.491 ms - -[0m
+In cookbook Post
+{ name: 'alfredp' }
+[0mPOST /cookbook [32m200 [0m0.514 ms - -[0m
+[0mGET /? [36m304 [0m0.321 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.511 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.547 ms - -[0m
+in Cookbook
+[0mGET /cookbook [32m200 [0m0.437 ms - 1279[0m
+[0mGET /? [32m200 [0m0.540 ms - 1548[0m
+[0mGET /javascripts/app.js [36m304 [0m1.027 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.293 ms - -[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m0.524 ms - -[0m
+[0mGET /? [36m304 [0m0.271 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.508 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.338 ms - 536[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m0.487 ms - -[0m
+[0mGET /? [36m304 [0m0.291 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.268 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.378 ms - 536[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m0.455 ms - -[0m
+[0mGET /? [36m304 [0m0.290 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.314 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.445 ms - -[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m0.494 ms - -[0m
+[0mGET /? [36m304 [0m0.306 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m1.612 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.559 ms - -[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m1.713 ms - -[0m
+[0mGET / [32m200 [0m0.895 ms - 1548[0m
+[0mGET /javascripts/app.js [36m304 [0m0.300 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.196 ms - -[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m1.566 ms - -[0m
+[0mGET / [36m304 [0m0.288 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.369 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.428 ms - 558[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m1.073 ms - -[0m
+[0mGET / [36m304 [0m0.271 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.274 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.533 ms - 558[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m2.186 ms - -[0m
+[0mGET / [36m304 [0m0.306 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.241 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.372 ms - 558[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m0.469 ms - -[0m
+[0mGET / [36m304 [0m0.291 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.289 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.405 ms - 558[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m1.003 ms - -[0m
+[0mGET / [36m304 [0m0.244 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.293 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.171 ms - -[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m0.504 ms - -[0m
+[0mGET / [36m304 [0m3.932 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.266 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.173 ms - -[0m
+in Cookbook
+[0mGET /cookbook [36m304 [0m0.814 ms - -[0m
+Killed
+
+npm ERR! Linux 3.13.0-119-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start" "./bin/www"
+npm ERR! node v6.10.3
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! lab4@0.0.0 start: `node ./bin/www "./bin/www"`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the lab4@0.0.0 start script 'node ./bin/www "./bin/www"'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the lab4 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www "./bin/www"
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs lab4
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls lab4
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /opt/bitnami/apache2/htdocs/lab4/npm-debug.log

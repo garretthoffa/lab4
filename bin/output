@@ -1,0 +1,79 @@
+
+> lab4@0.0.0 start /opt/bitnami/apache2/htdocs/lab4
+> node ./bin/www "nohup" "node" "./bin/www"
+
+[0mGET / [36m304 [0m6.056 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m1.946 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m7.989 ms - -[0m
+in Cookbook
+[ { name: 'Tuna Noodles and Peas',
+    ingredient1: '1 box macaroni and cheese',
+    ingredient2: '1 can cream of mushroom soup',
+    ingredient3: '1 can tuna',
+    ingredient4: '1 can peas',
+    instructions: 'Prepare the Macaroni and cheese as instructed. Drain liquid from tuna and peas. add soup, peas and tuna to the macaroni and cheese. Stir till well mixed, serve.' },
+  { name: 'Creamy Chicken Skillet with Stuffing',
+    ingredient1: '1 pkg(16oz) Stove Top Stuffing Mix for Chicken',
+    ingredient2: '6 boneless skinless chicken breat havels',
+    ingredient3: '3 cups mixed vegetables',
+    ingredient4: '1 can (10.75 oz) condensed cream of brocoli soup',
+    instructions: 'Prepare stuffing mix. Heat large nonstick skillet on medium=-high heat. Add chicken and cover, cook 5-7 minutes on each side, Remove Chicken from skillet. Add vegetables, soup and 1/2 cup water to skillet; cover. Cook 6 minutes, or until heated through, stirring often. Return Chicken to skillet and cook till hot, serve with stuffing' } ]
+[0mGET /cookbook [36m304 [0m7.756 ms - -[0m
+[0mGET / [32m200 [0m2.536 ms - 1638[0m
+[0mGET /javascripts/app.js [36m304 [0m0.345 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.302 ms - -[0m
+in Cookbook
+[ { name: 'Tuna Noodles and Peas',
+    ingredient1: '1 box macaroni and cheese',
+    ingredient2: '1 can cream of mushroom soup',
+    ingredient3: '1 can tuna',
+    ingredient4: '1 can peas',
+    instructions: 'Prepare the Macaroni and cheese as instructed. Drain liquid from tuna and peas. add soup, peas and tuna to the macaroni and cheese. Stir till well mixed, serve.' },
+  { name: 'Creamy Chicken Skillet with Stuffing',
+    ingredient1: '1 pkg(16oz) Stove Top Stuffing Mix for Chicken',
+    ingredient2: '6 boneless skinless chicken breat havels',
+    ingredient3: '3 cups mixed vegetables',
+    ingredient4: '1 can (10.75 oz) condensed cream of brocoli soup',
+    instructions: 'Prepare stuffing mix. Heat large nonstick skillet on medium=-high heat. Add chicken and cover, cook 5-7 minutes on each side, Remove Chicken from skillet. Add vegetables, soup and 1/2 cup water to skillet; cover. Cook 6 minutes, or until heated through, stirring often. Return Chicken to skillet and cook till hot, serve with stuffing' } ]
+[0mGET /cookbook [36m304 [0m1.603 ms - -[0m
+In cookbook Post
+{ name: 'Alfredo',
+  ingredient1: 'garlic',
+  ingredient2: 'noodles',
+  ingredient3: 'cream',
+  ingredient4: 'parsley' }
+[0mPOST /cookbook [32m200 [0m21.064 ms - -[0m
+In cookbook Post
+{ name: 'Alfredo',
+  ingredient1: 'garlic',
+  ingredient2: 'noodles',
+  ingredient3: 'cream',
+  ingredient4: 'parsley' }
+[0mPOST /cookbook [32m200 [0m1.696 ms - -[0m
+[0mGET / [36m304 [0m0.816 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m1.002 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.890 ms - -[0m
+in Cookbook
+[ { name: 'Tuna Noodles and Peas',
+    ingredient1: '1 box macaroni and cheese',
+    ingredient2: '1 can cream of mushroom soup',
+    ingredient3: '1 can tuna',
+    ingredient4: '1 can peas',
+    instructions: 'Prepare the Macaroni and cheese as instructed. Drain liquid from tuna and peas. add soup, peas and tuna to the macaroni and cheese. Stir till well mixed, serve.' },
+  { name: 'Creamy Chicken Skillet with Stuffing',
+    ingredient1: '1 pkg(16oz) Stove Top Stuffing Mix for Chicken',
+    ingredient2: '6 boneless skinless chicken breat havels',
+    ingredient3: '3 cups mixed vegetables',
+    ingredient4: '1 can (10.75 oz) condensed cream of brocoli soup',
+    instructions: 'Prepare stuffing mix. Heat large nonstick skillet on medium=-high heat. Add chicken and cover, cook 5-7 minutes on each side, Remove Chicken from skillet. Add vegetables, soup and 1/2 cup water to skillet; cover. Cook 6 minutes, or until heated through, stirring often. Return Chicken to skillet and cook till hot, serve with stuffing' },
+  { name: 'Alfredo',
+    ingredient1: 'garlic',
+    ingredient2: 'noodles',
+    ingredient3: 'cream',
+    ingredient4: 'parsley' },
+  { name: 'Alfredo',
+    ingredient1: 'garlic',
+    ingredient2: 'noodles',
+    ingredient3: 'cream',
+    ingredient4: 'parsley' } ]
+[0mGET /cookbook [32m200 [0m2.043 ms - 1202[0m
