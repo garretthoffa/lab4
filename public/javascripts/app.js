@@ -21,7 +21,7 @@ function mainCtrl ($scope, recipeFetcher, $http)
 {
 	$scope.recipe =[];
 	$scope.addRecipe = function() {
-	var formData = {name:$scope.Name,ingredient1:$scope.Ingredient1,ingredient2:$scope.Ingredient2,ingredient3:$scope.Ingredient3,ingredient4:$scope.Ingredient4}
+	var formData = {name:$scope.Name,ingredient1:$scope.Ingredient1,ingredient2:$scope.Ingredient2,ingredient3:$scope.Ingredient3,ingredient4:$scope.Ingredient4,instructions:$scope.Instructions}
 var cookbookURL = "cookbook"
  $http({
      url: cookbookURL,
